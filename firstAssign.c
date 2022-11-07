@@ -2,8 +2,17 @@
 #include <stdio.h>
 
 int main() {
-    // Write C code here
-    printf("Hello world");
+    double number;
+    char alphabet;
+
+    printf("Enter double input: ");
+    scanf("%lf", &number);
+    printf("Double number you entered is: %lf", number);
+
+    printf("\n Enter a name: ");
+    scanf("%c", &alphabet);
+    printf("\n the name you entered is: %c", alphabet);
+
 
     return 0;
 }
