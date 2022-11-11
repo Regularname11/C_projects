@@ -6,7 +6,7 @@ int main() {
     char alphabet;
 
     printf("Enter double input: ");
-    scanf("%lf", &number);
+    scanf("%lf", &number);/*&number (called pointer)*/
     printf("Double number you entered is: %lf", number);
 
    /* printf("\n Enter a name: ");
