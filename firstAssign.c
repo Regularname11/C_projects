@@ -7,11 +7,12 @@ int main() {
 
     printf("Enter double input: ");
     scanf("%lf", &number);
+    printf("Double number you entered is: %lf", number);
+
     printf("\n Enter a name: ");
     scanf("%c", &alphabet);
-    
-    printf("Double number you entered is: %lf", number);
     printf("\n the name you entered is: %c", alphabet);
+
 
     return 0;
 }
