@@ -10,7 +10,8 @@ int main() {
     printf("Enter your second number: ");
     scanf("lf", &number2);
 
-    printf("The sum of the two numbers is %f%f: ", number1 + number2);
+
+    printf("The sum of the two numbers is %f: ", number1 + number2);
 
     return 0;
 }
