@@ -17,9 +17,9 @@ int main() {
     printf("Enter a celebrity name: ");
     scanf("%s%s", &celebrityFirstName, &celebrityLastName);
 
-    printf("Roses are %s: " , color);
-    printf("%s are : " , pluralNoun);
-    printf("%s %s is fabulous: " , celebrityFirstName, celebrityLastName);
+    printf("Roses are %s \n" , color);
+    printf("%s are crazy \n" , pluralNoun);
+    printf("%s %s is fabulous \n" , celebrityFirstName, celebrityLastName);
 
     return 0;
 }
