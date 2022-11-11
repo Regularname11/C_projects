@@ -1,16 +1,17 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
+
     double number;
     int age;
     char alphabet;
+    
     printf("Enter your age: ");
     scanf("%d", &age);
     printf("You are %d YO : ", age);
 
    /* printf("Enter double input: ");
-    scanf("%lf", &number);/*&number (called pointer)
+    scanf("%lf", &number); &number (called pointer)
     printf("Double number you entered is: %lf", number);*/
 
    /* printf("\n Enter a name: ");
