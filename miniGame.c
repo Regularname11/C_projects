@@ -2,10 +2,10 @@
 
 int main() {
 
-    char color;
-    char pluralNoun;
-    char celebrityFirstName;
-    char celebrityLastName;
+    char color[20];
+    char pluralNoun[20];
+    char celebrityFirstName[20];
+    char celebrityLastName[30];
 
 
     printf("Enter a color: ");
