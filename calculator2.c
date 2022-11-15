@@ -23,5 +23,5 @@ int main() {
     } else {
         printf("Invalid Operator");
     }
-    return 0;
+    return 0; 
 }
