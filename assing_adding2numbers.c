@@ -5,10 +5,10 @@ int main() {
     double number2;
 
     printf("Enter your first number: ");
-    scanf("lf", &number1);
+    scanf("%lf", &number1);
 
     printf("Enter your second number: ");
-    scanf("lf", &number2);
+    scanf("%lf", &number2);
 
 
     printf("The sum of the two numbers is %f: ", number1 + number2);
